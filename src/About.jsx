@@ -1,11 +1,12 @@
 import React from 'react'
-import Carousal from './carousal'
+
 import { Link } from 'react-router-dom'
+import Carousals from './Carousals'
 
 function About() {
   return (
     <div>
-      <Carousal/>  
+      <Carousals/> 
        <h1 className='mt-5 text-center' style={{ fontFamily: "Lora", fontSize: "3rem", fontWeight: "700", marginBottom: "1rem" }}>
         What We Do
         </h1>
