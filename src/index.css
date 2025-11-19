@@ -1,0 +1,50 @@
+ @media (max-width: 768px) {
+            .hero-content {
+              /* top: 22%; */
+              display: flex;
+              justify-content:center;
+              align-items:center;
+            }
+
+            .hero-box {
+              padding: 1.5rem;
+             
+            }
+
+            .title {
+              font-size: 1.7rem;
+            }
+
+            .hero-text {
+              font-size: 0.95rem;
+            }
+
+            .hero-btn {
+              padding: 0.7rem 1.3rem;
+              font-size: 0.9rem;
+            }
+          }
+
+          @media (max-width: 480px) {
+            .hero-content {
+              top: 20%;
+            }
+
+            .hero-box {
+              padding: 1.2rem;
+              
+            }
+
+            .title {
+              font-size: 1.4rem;
+            }
+
+            .hero-text {
+              font-size: 0.85rem;
+            }
+
+            .hero-btn {
+              font-size: 0.85rem;
+              padding: 0.6rem 1.2rem;
+            }
+          }
